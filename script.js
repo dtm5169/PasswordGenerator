@@ -1,8 +1,6 @@
 
 let generateBtn = document.querySelector("#click");
 
-
-
 let specialChar = "!@#$%^&*()_-+={}[];:'`~<,>.?/|"
 let specialCheck;
 let lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
@@ -47,7 +45,6 @@ function determineLength(){
     }
     return passwordLength;
 }
-
 let numberCheck;
 let numberChar = "0-9";
 //User will determine if they want to use numbers
